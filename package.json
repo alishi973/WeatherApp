@@ -1,0 +1,60 @@
+{
+  "name": "my-weather-app",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.2",
+    "@material-ui/lab": "^4.0.0-alpha.42",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "3.3.1"
+  },
+  "scripts": {
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alishi973/WeatherApp.git"
+  },
+  "homepage": "https://github.com/alishi973/WeatherApp"
+  ,
+  "keywords": [
+    "Weather",
+    "React",
+    "API",
+    "Axios"
+  ],
+  "author": "Ali Shirzad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alishi973/WeatherApp/issues"
+  }
+  
+}
